@@ -30,6 +30,15 @@ Example
 python main.py MY_SENDGRID_API_KEY email1@domain.com email2@domain.com email3@domain.com email4@domain.com
 ```
 
+## setting up for local development and testing
+1. Create a file named "changelog.txt" to house an auto-generated changelog from GitHub.
+> [!Note]
+> Without the `changelog.txt` file, the program will fallback onto `sample.txt`. `sample.txt` is based on the Release Notes from
+> [tsao-backend-svc 1.0.0-alpha.1](https://github.com/DevOps-2023-TeamA/tsao-backend-svc/releases/tag/1.0.0-alpha.1).
+
+2. Run the command to execute the code.
+3. Consider placing a placeholder value as the Sendgrid Token like "test" so it does not count against the API free tier usage limits.
+
 ## maintainers
 - [Yee Jia Chen](https://github.com/jiachenyee) S10219344C
 - [Isabelle Pak Yi Shan](https://github.com/isabellepakyishan) S10222456J

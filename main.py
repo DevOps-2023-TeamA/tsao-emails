@@ -2,10 +2,15 @@ import re
 import requests
 import json
 import sys
+import os
 
 def generate_email_body():
     filename = 'changelog.txt'
 
+    # Used for development and testing
+    if !os.path.exists(filename):
+        filename = 'sample.txt'
+    
     output = ""
     change_differential = ""
     changes_url = ""

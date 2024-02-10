@@ -1,0 +1,17 @@
+## What's Changed
+* feat: generate JWT and store as cookies by @isabellepakyishan in https://github.com/DevOps-2023-TeamA/tsao-backend-svc/pull/11
+* feat: CRUD operations for Capstone Entries by @isabellepakyishan in https://github.com/DevOps-2023-TeamA/tsao-backend-svc/pull/13
+* fix: modify response to frontend for storing cookies by @isabellepakyishan in https://github.com/DevOps-2023-TeamA/tsao-backend-svc/pull/12
+* refactor: Auth microservice by @isabellepakyishan in https://github.com/DevOps-2023-TeamA/tsao-backend-svc/pull/17
+* refactor: Records microservice  by @isabellepakyishan in https://github.com/DevOps-2023-TeamA/tsao-backend-svc/pull/16
+* feat: CRUD operations for Accounts by @isabellepakyishan in https://github.com/DevOps-2023-TeamA/tsao-backend-svc/pull/15
+* feat: retrieve ID from username for creating new entry by @isabellepakyishan in https://github.com/DevOps-2023-TeamA/tsao-backend-svc/pull/18
+* Set up automated testing by @jiachenyee in https://github.com/DevOps-2023-TeamA/tsao-backend-svc/pull/19
+* Set up Discord Notifier by @jiachenyee in https://github.com/DevOps-2023-TeamA/tsao-backend-svc/pull/20
+* Update README by @jiachenyee in https://github.com/DevOps-2023-TeamA/tsao-backend-svc/pull/21
+
+## New Contributors
+* @isabellepakyishan made their first contribution in https://github.com/DevOps-2023-TeamA/tsao-backend-svc/pull/11
+* @jiachenyee made their first contribution in https://github.com/DevOps-2023-TeamA/tsao-backend-svc/pull/19
+
+**Full Changelog**: https://github.com/DevOps-2023-TeamA/tsao-backend-svc/commits/1.0.0-alpha.1

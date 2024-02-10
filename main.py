@@ -8,7 +8,7 @@ def generate_email_body():
     filename = 'changelog.txt'
 
     # Used for development and testing
-    if !os.path.exists(filename):
+    if not os.path.exists(filename):
         filename = 'sample.txt'
     
     output = ""

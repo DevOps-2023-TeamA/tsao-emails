@@ -10,7 +10,13 @@ def generate_email_body():
     # Used for development and testing
     if not os.path.exists(filename):
         filename = 'sample.txt'
-    
+
+    with open("changelog.txt", 'r') as file:
+        count = sum(1 for _ in file)
+
+        if count <= 2:
+            filename = 'sample.txt'
+
     output = ""
     change_differential = ""
     changes_url = ""
